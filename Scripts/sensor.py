@@ -17,7 +17,7 @@ session = gps.gps("localhost", "2947")
 session.stream(gps.WATCH_ENABLE | gps.WATCH_NEWSTYLE)
 
 #Variables for MySQL
-db = MySQLdb.connect(host="localhost", user="root", passwd="root", db="sensor") # replace password with your password
+db = MySQLdb.connect(host="localhost", user="username", passwd="password", db="sensor") # replace password with your password
 cur = db.cursor()
 
  

@@ -57,7 +57,7 @@ sudo i2cdetect -y 1
 
 ### Libraries
 
-Either you use BMP280 or BME280, we are going to use libraries for BME280. This sensor got temp, pressure and humidity meanwhile BMP280 only got temp and pressure. Humidity will remain at 0 if you use this one.
+Either you can use BMP280 or BME280, we are going to use libraries for BME280. This sensor got temp, pressure and humidity meanwhile BMP280 only got temp and pressure. Humidity will remain at 0 if you use this one.
 
 Assuming you got python dependencies, load thoses libraries
 
